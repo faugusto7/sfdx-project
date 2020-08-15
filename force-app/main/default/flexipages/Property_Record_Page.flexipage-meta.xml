@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>collapsed</name>
                 <value>false</value>
             </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>hideUpdateButton</name>
                 <value>false</value>
@@ -18,54 +18,54 @@
                 <value>linear</value>
             </componentInstanceProperties>
             <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentName>force:relatedListContainer</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>relatedTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentName>force:detailPanel</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>detailTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>context</name>
                 <value>RECORD</value>
             </componentInstanceProperties>
             <componentName>forceChatter:publisher</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>context</name>
                 <value>RECORD</value>
             </componentInstanceProperties>
             <componentName>forceChatter:exposedFeed</componentName>
-        </componentInstances>
+        </itemInstances>
         <name>facet-b6179bf2-9b0b-4965-9236-b467ab38abb6</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentName>MortgageCalcWithAmortization</componentName>
-        </componentInstances>
+        </itemInstances>
         <name>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>relatedTabContent</value>
@@ -75,8 +75,8 @@
                 <value>Standard.Tab.relatedLists</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>active</name>
                 <value>true</value>
@@ -90,8 +90,8 @@
                 <value>Standard.Tab.detail</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>facet-b6179bf2-9b0b-4965-9236-b467ab38abb6</value>
@@ -101,8 +101,8 @@
                 <value>Standard.Tab.collaborate</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</value>
@@ -112,25 +112,25 @@
                 <value>Mortgage</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>maintabs</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>tabs</name>
                 <value>maintabs</value>
             </componentInstanceProperties>
             <componentName>flexipage:tabset</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>latField</name>
                 <value>Location__Latitude__s</value>
@@ -144,17 +144,17 @@
                 <value>Name</value>
             </componentInstanceProperties>
             <componentName>RecordMap</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentName>PropertyCarousel</componentName>
-        </componentInstances>
-        <componentInstances>
+        </itemInstances>
+        <itemInstances>
             <componentInstanceProperties>
                 <name>searchCriteria</name>
                 <value>Price</value>
             </componentInstanceProperties>
             <componentName>SimilarProperties</componentName>
-        </componentInstances>
+        </itemInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>
